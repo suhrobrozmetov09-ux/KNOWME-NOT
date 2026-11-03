@@ -1,0 +1,22 @@
+
+name: KNOWME_NOT
+
+options:
+  bundleIdPrefix: com.knowmenot
+
+targets:
+  KNOWME_NOT:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - ContentView.swift
+    resources:
+      - Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.knowmenot.app
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
